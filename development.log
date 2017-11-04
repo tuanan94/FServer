@@ -1,0 +1,398 @@
+Started GET "/" for 60.34.4.82 at 2017-11-04 05:07:10 +0000
+Cannot render console from 60.34.4.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /root/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /root/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (2.6ms)
+Completed 200 OK in 207ms (Views: 6.1ms)
+
+
+Started POST "/create_song" for 60.34.4.82 at 2017-11-04 05:07:25 +0000
+Cannot render console from 60.34.4.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecommendSongController#create_song as */*
+HTTP Origin header (chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo) didn't match request.base_url (http://139.162.100.116:3000)
+Completed 200 OK in 1ms (Views: 0.2ms)
+
+
+Started POST "/create_song?id=b7C6uMPTBeE" for 60.34.4.82 at 2017-11-04 05:08:18 +0000
+Cannot render console from 60.34.4.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecommendSongController#create_song as */*
+  Parameters: {"id"=>"b7C6uMPTBeE"}
+HTTP Origin header (chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo) didn't match request.base_url (http://139.162.100.116:3000)
+Completed 200 OK in 1ms (Views: 0.1ms)
+
+
+Started POST "/create_song?id=b7C6uMPTBeE" for 60.34.4.82 at 2017-11-04 05:09:10 +0000
+Cannot render console from 60.34.4.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecommendSongController#create_song as */*
+  Parameters: {"id"=>"b7C6uMPTBeE"}
+HTTP Origin header (chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo) didn't match request.base_url (http://139.162.100.116:3000)
+Completed 200 OK in 1ms (Views: 0.1ms)
+
+
+Started POST "/create_song?id=b7C6uMPTBeE" for 60.34.4.82 at 2017-11-04 05:10:00 +0000
+Cannot render console from 60.34.4.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecommendSongController#create_song as */*
+  Parameters: {"id"=>"b7C6uMPTBeE"}
+HTTP Origin header (chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo) didn't match request.base_url (http://139.162.100.116:3000)
+Completed 200 OK in 109862ms (Views: 0.3ms)
+
+
+Started POST "/create_song?id=b7C6uMPTBeE" for 60.34.4.82 at 2017-11-04 05:13:16 +0000
+Cannot render console from 60.34.4.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecommendSongController#create_song as */*
+  Parameters: {"id"=>"b7C6uMPTBeE"}
+HTTP Origin header (chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo) didn't match request.base_url (http://139.162.100.116:3000)
+Completed 200 OK in 6524ms (Views: 0.2ms)
+
+
+Started POST "/create_song?id=dns2WLu8Su8" for 60.34.4.82 at 2017-11-04 05:32:06 +0000
+Cannot render console from 60.34.4.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecommendSongController#create_song as */*
+  Parameters: {"id"=>"dns2WLu8Su8"}
+HTTP Origin header (chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo) didn't match request.base_url (http://139.162.100.116:3000)
+Completed 500 Internal Server Error in 2750ms
+
+
+  
+Cocaine::ExitStatusError (Command '/root/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/youtube-dl.rb-0.3.1.2016.09.11.1/vendor/bin/youtube-dl --output '/root/mp3tank_raw/dns2WLu8Su8' --no-color --no-progress --print-json "https://www.youtube.com/watch?v=dns2WLu8Su8"' returned 1. Expected 0
+Here is the command output: STDOUT:
+
+
+
+STDERR:
+
+WARNING: unable to extract uploader nickname
+ERROR: Signature extraction failed: Traceback (most recent call last):
+  File "/root/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/youtube-dl.rb-0.3.1.2016.09.11.1/vendor/bin/youtube-dl/youtube_dl/extractor/youtube.py", line 1005, in _decrypt_signature
+    video_id, player_url, s
+  File "/root/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/youtube-dl.rb-0.3.1.2016.09.11.1/vendor/bin/youtube-dl/youtube_dl/extractor/youtube.py", line 897, in _extract_signature_function
+    raise ExtractorError('Cannot identify player %r' % player_url)
+ExtractorError: Cannot identify player u'/yts/jsbin/player-vflg6eF8s/en_US/base.js'; please report this issue on https://yt-dl.org/bug . Make sure you are using the latest version; type  youtube-dl -U  to update. Be sure to call youtube-dl with the --verbose flag and include its complete output.
+ (caused by ExtractorError(u"Cannot identify player u'/yts/jsbin/player-vflg6eF8s/en_US/base.js'; please report this issue on https://yt-dl.org/bug . Make sure you are using the latest version; type  youtube-dl -U  to update. Be sure to call youtube-dl with the --verbose flag and include its complete output.",)); please report this issue on https://yt-dl.org/bug . Make sure you are using the latest version; type  youtube-dl -U  to update. Be sure to call youtube-dl with the --verbose flag and include its complete output.
+):
+  
+app/controllers/recommend_song_controller.rb:7:in `create_song'
+Started POST "/create_song?id=AEdm5rC6vR8" for 60.34.4.82 at 2017-11-04 05:33:23 +0000
+Cannot render console from 60.34.4.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecommendSongController#create_song as */*
+  Parameters: {"id"=>"AEdm5rC6vR8"}
+HTTP Origin header (chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo) didn't match request.base_url (http://139.162.100.116:3000)
+Completed 500 Internal Server Error in 2480ms
+
+
+  
+Cocaine::ExitStatusError (Command '/root/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/youtube-dl.rb-0.3.1.2016.09.11.1/vendor/bin/youtube-dl --output '/root/mp3tank_raw/AEdm5rC6vR8' --no-color --no-progress --print-json "https://www.youtube.com/watch?v=AEdm5rC6vR8"' returned 1. Expected 0
+Here is the command output: STDOUT:
+
+
+
+STDERR:
+
+WARNING: unable to extract uploader nickname
+ERROR: Signature extraction failed: Traceback (most recent call last):
+  File "/root/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/youtube-dl.rb-0.3.1.2016.09.11.1/vendor/bin/youtube-dl/youtube_dl/extractor/youtube.py", line 1005, in _decrypt_signature
+    video_id, player_url, s
+  File "/root/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/youtube-dl.rb-0.3.1.2016.09.11.1/vendor/bin/youtube-dl/youtube_dl/extractor/youtube.py", line 897, in _extract_signature_function
+    raise ExtractorError('Cannot identify player %r' % player_url)
+ExtractorError: Cannot identify player u'/yts/jsbin/player-vflg6eF8s/en_US/base.js'; please report this issue on https://yt-dl.org/bug . Make sure you are using the latest version; type  youtube-dl -U  to update. Be sure to call youtube-dl with the --verbose flag and include its complete output.
+ (caused by ExtractorError(u"Cannot identify player u'/yts/jsbin/player-vflg6eF8s/en_US/base.js'; please report this issue on https://yt-dl.org/bug . Make sure you are using the latest version; type  youtube-dl -U  to update. Be sure to call youtube-dl with the --verbose flag and include its complete output.",)); please report this issue on https://yt-dl.org/bug . Make sure you are using the latest version; type  youtube-dl -U  to update. Be sure to call youtube-dl with the --verbose flag and include its complete output.
+):
+  
+app/controllers/recommend_song_controller.rb:7:in `create_song'
+Started POST "/create_song?id=Y29OrOVJUKs" for 60.34.4.82 at 2017-11-04 05:34:15 +0000
+Cannot render console from 60.34.4.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecommendSongController#create_song as */*
+  Parameters: {"id"=>"Y29OrOVJUKs"}
+HTTP Origin header (chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo) didn't match request.base_url (http://139.162.100.116:3000)
+Completed 200 OK in 15059ms (Views: 0.3ms)
+
+
+Started POST "/create_song?id=Y29OrOVJUKs" for 60.34.4.82 at 2017-11-04 06:01:45 +0000
+Cannot render console from 60.34.4.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecommendSongController#create_song as */*
+  Parameters: {"id"=>"Y29OrOVJUKs"}
+HTTP Origin header (chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo) didn't match request.base_url (http://139.162.100.116:3000)
+Completed 200 OK in 9235ms (Views: 0.2ms)
+
+
+Started POST "/create_song?id=jofNR_WkoCE" for 60.34.4.82 at 2017-11-04 06:02:30 +0000
+Cannot render console from 60.34.4.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecommendSongController#create_song as */*
+  Parameters: {"id"=>"jofNR_WkoCE"}
+HTTP Origin header (chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo) didn't match request.base_url (http://139.162.100.116:3000)
+Completed 200 OK in 8084ms (Views: 0.4ms)
+
+
+Started POST "/create_song?id=O23ja0WRzPY" for 60.34.4.82 at 2017-11-04 06:05:45 +0000
+Cannot render console from 60.34.4.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecommendSongController#create_song as */*
+  Parameters: {"id"=>"O23ja0WRzPY"}
+HTTP Origin header (chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo) didn't match request.base_url (http://139.162.100.116:3000)
+Completed 200 OK in 79848ms (Views: 0.3ms)
+
+
+Started POST "/create_song?id=jofNR_WkoCE" for 60.34.4.82 at 2017-11-04 06:10:49 +0000
+Cannot render console from 60.34.4.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecommendSongController#create_song as */*
+  Parameters: {"id"=>"jofNR_WkoCE"}
+HTTP Origin header (chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo) didn't match request.base_url (http://139.162.100.116:3000)
+Completed 500 Internal Server Error in 6890ms
+
+
+  
+Cocaine::ExitStatusError (Command '/root/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/youtube-dl.rb-0.3.1.2016.09.11.1/vendor/bin/youtube-dl --output '/root/mp3tank_raw/jofNR_WkoCE' --no-color --no-progress --print-json "https://www.youtube.com/watch?v=jofNR_WkoCE"' returned 1. Expected 0
+Here is the command output: STDOUT:
+
+{"upload_date": null, "creator": null, "height": 1080, "like_count": null, "duration": 225, "fulltitle": "Ylvis - The Fox (What Does The Fox Say?) [Official music video HD]", "id": "jofNR_WkoCE", "requested_formats": [{"asr": null, "tbr": 3559, "protocol": "https", "language": null, "format": "137 - 1920x1080 (DASH video)", "url": "https://r3---sn-a5mekner.googlevideo.com/videoplayback?id=8e87cd47f5a4a021&itag=137&source=youtube&requiressl=yes&mv=m&ei=61n9WZC8Noiy4QKproOACA&mm=31&mn=sn-a5mekner&pl=64&ms=au&initcwndbps=4092500&ratebypass=yes&mime=video/mp4&gir=yes&clen=61020034&lmt=1480019585654465&dur=224.800&mt=1509775777&signature=90D1C6BC2724B2A110926B37FB3EA52D6A562D9B.8F758548F0246D03875DE01DA4234D4696D76A01&key=dg_yt0&ip=2400:8902::f03c:91ff:fe39:5351&ipbits=0&expire=1509797451&sparams=ip,ipbits,expire,id,itag,source,requiressl,mv,ei,mm,mn,pl,ms,initcwndbps,ratebypass,mime,gir,clen,lmt,dur", "vcodec": "avc1.640028", "format_note": "DASH video", "preference": -40, "height": 1080, "width": 1920, "ext": "mp4", "filesize": 61020034, "fps": 25, "format_id": "137", "http_headers": {"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7", "Accept-Language": "en-us,en;q=0.5", "Accept-Encoding": "gzip, deflate", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:10.0) Gecko/20150101 Firefox/47.0 (Chrome)"}, "acodec": "none"}, {"http_headers": {"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7", "Accept-Language": "en-us,en;q=0.5", "Accept-Encoding": "gzip, deflate", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:10.0) Gecko/20150101 Firefox/47.0 (Chrome)"}, "tbr": 149.717, "protocol": "https", "format": "251 - audio only (DASH audio)", "url": "https://r3---sn-a5mekner.googlevideo.com/videoplayback?dur=224.861&ms=au&mt=1509775777&mv=m&mm=31&source=youtube&mn=sn-a5mekner&id=o-AIrOXF_GN1c-f7VZ3PKRUIaZavvxub_Rya5ffAh19sxO&sparams=clen%2Cdur%2Cei%2Cgir%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Ckeepalive%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpcm2%2Cpl%2Crequiressl%2Csource%2Cexpire&initcwndbps=4092500&ip=2400%3A8902%3A%3Af03c%3A91ff%3Afe39%3A5351&ei=61n9WfGuA53fqQHn_rvIBg&requiressl=yes&pl=64&keepalive=yes&gir=yes&pcm2=yes&expire=1509797451&lmt=1449598167058547&signature=D3060153F07E65035B6AFECE51ED12DC170BFF73.69078BDF086D2CB76944B457D6C9559F08273DF7&mime=audio%2Fwebm&key=yt6&itag=251&clen=3693968&ipbits=0&ratebypass=yes", "filesize": 3693968, "vcodec": "none", "format_note": "DASH audio", "abr": 160, "player_url": null, "ext": "webm", "preference": -50, "format_id": "251", "acodec": "opus"}], "view_count": 703299645, "playlist": null, "title": "Ylvis - The Fox (What Does The Fox Say?) [Official music video HD]", "_filename": "/root/mp3tank_raw/jofNR_WkoCE", "format": "137 - 1920x1080 (DASH video)+251 - audio only (DASH audio)", "ext": "mp4", "playlist_index": null, "dislike_count": null, "average_rating": 4.60226202011, "abr": 160, "uploader_url": null, "subtitles": {}, "fps": 25, "stretched_ratio": null, "age_limit": 0, "annotations": null, "webpage_url_basename": "watch", "acodec": "opus", "display_id": "jofNR_WkoCE", "automatic_captions": {}, "description": "", "tags": [], "requested_subtitles": null, "start_time": null, "uploader": "TVNorge", "format_id": "137+251", "uploader_id": null, "categories": null, "thumbnails": [{"url": "https://i.ytimg.com/vi/jofNR_WkoCE/default.jpg", "id": "0"}], "license": null, "alt_title": null, "extractor_key": "Youtube", "vcodec": "avc1.640028", "thumbnail": "https://i.ytimg.com/vi/jofNR_WkoCE/default.jpg", "vbr": null, "is_live": null, "extractor": "youtube", "end_time": null, "webpage_url": "https://www.youtube.com/watch?v=jofNR_WkoCE", "formats": [{"asr": 22050, "tbr": 48, "protocol": "https", "format": "139 - audio only (DASH audio)", "format_note": "DASH audio", "height": null, "preference": -50, "format_id": "139", "container": "m4a_dash", "language": null, "http_headers": {"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7", "Accept-Language": "en-us,en;q=0.5", "Accept-Encoding": "gzip, deflate", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:10.0) Gecko/20150101 Firefox/47.0 (Chrome)"}, "url": "https://r3---sn-a5mekner.googlevideo.com/videoplayback?id=8e87cd47f5a4a021&itag=139&source=youtube&requiressl=yes&mv=m&ei=61n9WZC8Noiy4QKproOACA&mm=31&mn=sn-a5mekner&pl=64&ms=au&initcwndbps=4092500&ratebypass=yes&mime=audio/mp4&gir=yes&clen=1338767&lmt=1480019581744662&dur=225.001&mt=1509775777&signature=3881F246FE109F0E8FEF788A3E0AA6CC69A2BEA7.03A128DE03B2465E26947B02F8FB9641D80A563B&key=dg_yt0&ip=2400:8902::f03c:91ff:fe39:5351&ipbits=0&expire=1509797451&sparams=ip,ipbits,expire,id,itag,source,requiressl,mv,ei,mm,mn,pl,ms,initcwndbps,ratebypass,mime,gir,clen,lmt,dur", "vcodec": "none", "ext": "m4a", "width": null, "abr": 48, "filesize": 1338767, "fps": null, "acodec": "mp4a.40.5"}, {"http_headers": {"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7", "Accept-Language": "en-us,en;q=0.5", "Accept-Encoding": "gzip, deflate", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:10.0) Gecko/20150101 Firefox/47.0 (Chrome)"}, "tbr": 57.243, "protocol": "https", "format": "249 - audio only (DASH audio)", "url": "https://r3---sn-a5mekner.googlevideo.com/videoplayback?dur=224.861&ms=au&mt=1509775777&mv=m&mm=31&source=youtube&mn=sn-a5mekner&id=o-AIrOXF_GN1c-f7VZ3PKRUIaZavvxub_Rya5ffAh19sxO&sparams=clen%2Cdur%2Cei%2Cgir%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Ckeepalive%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpcm2%2Cpl%2Crequiressl%2Csource%2Cexpire&initcwndbps=4092500&ip=2400%3A8902%3A%3Af03c%3A91ff%3Afe39%3A5351&ei=61n9WfGuA53fqQHn_rvIBg&requiressl=yes&pl=64&keepalive=yes&gir=yes&pcm2=yes&expire=1509797451&lmt=1449598156108746&signature=8882362A5E01310426FBE0FA5F1F333DF136BF29.36D417A1DDD1C23239AE6570B8EE7FE39F862024&mime=audio%2Fwebm&key=yt6&itag=249&clen=1411599&ipbits=0&ratebypass=yes", "filesize": 1411599, "vcodec": "none", "format_note": "DASH audio", "abr": 50, "player_url": null, "ext": "webm", "preference": -50, "format_id": "249", "acodec": "opus"}, {"http_headers": {"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7", "Accept-Language": "en-us,en;q=0.5", "Accept-Encoding": "gzip, deflate", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:10.0) Gecko/20150101 Firefox/47.0 (Chrome)"}, "tbr": 80.707, "protocol": "https", "format": "250 - audio only (DASH audio)", "url": "https://r3---sn-a5mekner.googlevideo.com/videoplayback?dur=224.861&ms=au&mt=1509775777&mv=m&mm=31&source=youtube&mn=sn-a5mekner&id=o-AIrOXF_GN1c-f7VZ3PKRUIaZavvxub_Rya5ffAh19sxO&sparams=clen%2Cdur%2Cei%2Cgir%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Ckeepalive%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpcm2%2Cpl%2Crequiressl%2Csource%2Cexpire&initcwndbps=4092500&ip=2400%3A8902%3A%3Af03c%3A91ff%3Afe39%3A5351&ei=61n9WfGuA53fqQHn_rvIBg&requiressl=yes&pl=64&keepalive=yes&gir=yes&pcm2=yes&expire=1509797451&lmt=1449598167200394&signature=86160F3FD0EFD3BC5EB3827B96C7912718E71CFE.2C8EDAAF5E87F933E1F47F07D6C3A1E12961B2AB&mime=audio%2Fwebm&key=yt6&itag=250&clen=1880602&ipbits=0&ratebypass=yes", "filesize": 1880602, "vcodec": "none", "format_note": "DASH audio", "abr": 70, "player_url": null, "ext": "webm", "preference": -50, "format_id": "250", "acodec": "opus"}, {"asr": 44100, "tbr": 128, "protocol": "https", "format": "140 - audio only (DASH audio)", "format_note": "DASH audio", "height": null, "preference": -50, "format_id": "140", "container": "m4a_dash", "language": null, "http_headers": {"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7", "Accept-Language": "en-us,en;q=0.5", "Accept-Encoding": "gzip, deflate", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:10.0) Gecko/20150101 Firefox/47.0 (Chrome)"}, "url": "https://r3---sn-a5mekner.googlevideo.com/videoplayback?id=8e87cd47f5a4a021&itag=140&source=youtube&requiressl=yes&mv=m&ei=61n9WZC8Noiy4QKproOACA&mm=31&mn=sn-a5mekner&pl=64&ms=au&initcwndbps=4092500&ratebypass=yes&mime=audio/mp4&gir=yes&clen=3572769&lmt=1480019682254100&dur=224.908&mt=1509775777&signature=09F2922CF8819C1874AC0B51D9DAF6BE0E9F237C.4CF5A63EC5252FF66A917F0D54C054B0C7C9B9D0&key=dg_yt0&ip=2400:8902::f03c:91ff:fe39:5351&ipbits=0&expire=1509797451&sparams=ip,ipbits,expire,id,itag,source,requiressl,mv,ei,mm,mn,pl,ms,initcwndbps,ratebypass,mime,gir,clen,lmt,dur", "vcodec": "none", "ext": "m4a", "width": null, "abr": 128, "filesize": 3572769, "fps": null, "acodec": "mp4a.40.2"}, {"http_headers": {"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7", "Accept-Language": "en-us,en;q=0.5", "Accept-Encoding": "gzip, deflate", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:10.0) Gecko/20150101 Firefox/47.0 (Chrome)"}, "tbr": 144.612, "protocol": "https", "format": "171 - audio only (DASH audio)", "url": "https://r3---sn-a5mekner.googlevideo.com/videoplayback?dur=224.861&ms=au&mt=1509775777&mv=m&mm=31&source=youtube&mn=sn-a5mekner&id=o-AIrOXF_GN1c-f7VZ3PKRUIaZavvxub_Rya5ffAh19sxO&sparams=clen%2Cdur%2Cei%2Cgir%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Ckeepalive%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpcm2%2Cpl%2Crequiressl%2Csource%2Cexpire&initcwndbps=4092500&ip=2400%3A8902%3A%3Af03c%3A91ff%3Afe39%3A5351&ei=61n9WfGuA53fqQHn_rvIBg&requiressl=yes&pl=64&keepalive=yes&gir=yes&pcm2=yes&expire=1509797451&lmt=1449598167668010&signature=1CEAEA11D20B9DEB4F6C7A576745D0B9D9976197.C245DE0E42505A20F570FFC7CE3D1E8A45C727EA&mime=audio%2Fwebm&key=yt6&itag=171&clen=3633056&ipbits=0&ratebypass=yes", "filesize": 3633056, "vcodec": "none", "format_note": "DASH audio", "abr": 128, "player_url": null, "ext": "webm", "preference": -50, "format_id": "171", "acodec": "vorbis"}, {"http_headers": {"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7", "Accept-Language": "en-us,en;q=0.5", "Accept-Encoding": "gzip, deflate", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:10.0) Gecko/20150101 Firefox/47.0 (Chrome)"}, "tbr": 149.717, "protocol": "https", "format": "251 - audio only (DASH audio)", "url": "https://r3---sn-a5mekner.googlevideo.com/videoplayback?dur=224.861&ms=au&mt=1509775777&mv=m&mm=31&source=youtube&mn=sn-a5mekner&id=o-AIrOXF_GN1c-f7VZ3PKRUIaZavvxub_Rya5ffAh19sxO&sparams=clen%2Cdur%2Cei%2Cgir%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Ckeepalive%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpcm2%2Cpl%2Crequiressl%2Csource%2Cexpire&initcwndbps=4092500&ip=2400%3A8902%3A%3Af03c%3A91ff%3Afe39%3A5351&ei=61n9WfGuA53fqQHn_rvIBg&requiressl=yes&pl=64&keepalive=yes&gir=yes&pcm2=yes&expire=1509797451&lmt=1449598167058547&signature=D3060153F07E65035B6AFECE51ED12DC170BFF73.69078BDF086D2CB76944B457D6C9559F08273DF7&mime=audio%2Fwebm&key=yt6&itag=251&clen=3693968&ipbits=0&ratebypass=yes", "filesize": 3693968, "vcodec": "none", "format_note": "DASH audio", "abr": 160, "player_url": null, "ext": "webm", "preference": -50, "format_id": "251", "acodec": "opus"}, {"asr": null, "tbr": 110, "protocol": "https", "format": "160 - 256x144 (DASH video)", "format_note": "DASH video", "height": 144, "preference": -40, "format_id": "160", "language": null, "http_headers": {"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7", "Accept-Language": "en-us,en;q=0.5", "Accept-Encoding": "gzip, deflate", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:10.0) Gecko/20150101 Firefox/47.0 (Chrome)"}, "url": "https://r3---sn-a5mekner.googlevideo.com/videoplayback?id=8e87cd47f5a4a021&itag=160&source=youtube&requiressl=yes&mv=m&ei=61n9WZC8Noiy4QKproOACA&mm=31&mn=sn-a5mekner&pl=64&ms=au&initcwndbps=4092500&ratebypass=yes&mime=video/mp4&gir=yes&clen=2922195&lmt=1480019811317310&dur=224.800&mt=1509775777&signature=023E175288A9E3C10F09B91215FF1E17FCE88A08.8897E5EF10041ECE1065CE6257E7A2467FDADBA2&key=dg_yt0&ip=2400:8902::f03c:91ff:fe39:5351&ipbits=0&expire=1509797451&sparams=ip,ipbits,expire,id,itag,source,requiressl,mv,ei,mm,mn,pl,ms,initcwndbps,ratebypass,mime,gir,clen,lmt,dur", "vcodec": "avc1.4d400c", "width": 256, "ext": "mp4", "filesize": 2922195, "fps": 25, "acodec": "none"}, {"http_headers": {"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7", "Accept-Language": "en-us,en;q=0.5", "Accept-Encoding": "gzip, deflate", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:10.0) Gecko/20150101 Firefox/47.0 (Chrome)"}, "tbr": 122.235, "container": "webm", "format": "278 - 256x144 (144p)", "url": "https://r3---sn-a5mekner.googlevideo.com/videoplayback?dur=224.720&ms=au&mt=1509775777&mv=m&mm=31&source=youtube&mn=sn-a5mekner&id=o-AIrOXF_GN1c-f7VZ3PKRUIaZavvxub_Rya5ffAh19sxO&sparams=aitags%2Cclen%2Cdur%2Cei%2Cgir%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Ckeepalive%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpcm2%2Cpl%2Crequiressl%2Csource%2Cexpire&initcwndbps=4092500&ip=2400%3A8902%3A%3Af03c%3A91ff%3Afe39%3A5351&ei=61n9WfGuA53fqQHn_rvIBg&requiressl=yes&pl=64&keepalive=yes&gir=yes&pcm2=yes&expire=1509797451&lmt=1449598537171921&signature=14EF3452126B04C823CE78DFA7894AAF8C030128.7A0E0EE7BF22AB0C091A847F263945E83549A718&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&mime=video%2Fwebm&key=yt6&itag=278&clen=2775119&ipbits=0&ratebypass=yes", "vcodec": "vp9", "format_note": "144p", "player_url": null, "width": 256, "ext": "webm", "preference": -40, "fps": 13, "acodec": "none", "protocol": "https", "format_id": "278", "height": 144, "filesize": 2775119}, {"asr": null, "tbr": 243, "protocol": "https", "format": "133 - 426x240 (DASH video)", "format_note": "DASH video", "height": 240, "preference": -40, "format_id": "133", "language": null, "http_headers": {"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7", "Accept-Language": "en-us,en;q=0.5", "Accept-Encoding": "gzip, deflate", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:10.0) Gecko/20150101 Firefox/47.0 (Chrome)"}, "url": "https://r3---sn-a5mekner.googlevideo.com/videoplayback?id=8e87cd47f5a4a021&itag=133&source=youtube&requiressl=yes&mv=m&ei=61n9WZC8Noiy4QKproOACA&mm=31&mn=sn-a5mekner&pl=64&ms=au&initcwndbps=4092500&ratebypass=yes&mime=video/mp4&gir=yes&clen=6562132&lmt=1480019807908969&dur=224.800&mt=1509775777&signature=7D686AA81A13987B60DA178A2F565CF2FAEA2782.335D477E03E8F6F1447B6C57CCE02DB4B94612F3&key=dg_yt0&ip=2400:8902::f03c:91ff:fe39:5351&ipbits=0&expire=1509797451&sparams=ip,ipbits,expire,id,itag,source,requiressl,mv,ei,mm,mn,pl,ms,initcwndbps,ratebypass,mime,gir,clen,lmt,dur", "vcodec": "avc1.4d4015", "width": 426, "ext": "mp4", "filesize": 6562132, "fps": 25, "acodec": "none"}, {"http_headers": {"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7", "Accept-Language": "en-us,en;q=0.5", "Accept-Encoding": "gzip, deflate", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:10.0) Gecko/20150101 Firefox/47.0 (Chrome)"}, "tbr": 257.696, "protocol": "https", "format": "242 - 426x240 (240p)", "url": "https://r3---sn-a5mekner.googlevideo.com/videoplayback?dur=224.760&ms=au&mt=1509775777&mv=m&mm=31&source=youtube&mn=sn-a5mekner&id=o-AIrOXF_GN1c-f7VZ3PKRUIaZavvxub_Rya5ffAh19sxO&sparams=aitags%2Cclen%2Cdur%2Cei%2Cgir%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Ckeepalive%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpcm2%2Cpl%2Crequiressl%2Csource%2Cexpire&initcwndbps=4092500&ip=2400%3A8902%3A%3Af03c%3A91ff%3Afe39%3A5351&ei=61n9WfGuA53fqQHn_rvIBg&requiressl=yes&pl=64&keepalive=yes&gir=yes&pcm2=yes&expire=1509797451&lmt=1449598539018601&signature=BD08FFE86CEEFB8841334430E504EE86352E185E.94D97BE27C42F2BE190727DDB053701CE835D20B&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&mime=video%2Fwebm&key=yt6&itag=242&clen=5384553&ipbits=0&ratebypass=yes", "vcodec": "vp9", "format_note": "240p", "player_url": null, "width": 426, "ext": "webm", "preference": -40, "fps": 25, "acodec": "none", "format_id": "242", "height": 240, "filesize": 5384553}, {"http_headers": {"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7", "Accept-Language": "en-us,en;q=0.5", "Accept-Encoding": "gzip, deflate", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:10.0) Gecko/20150101 Firefox/47.0 (Chrome)"}, "tbr": 471.868, "protocol": "https", "format": "243 - 640x360 (360p)", "url": "https://r3---sn-a5mekner.googlevideo.com/videoplayback?dur=224.760&ms=au&mt=1509775777&mv=m&mm=31&source=youtube&mn=sn-a5mekner&id=o-AIrOXF_GN1c-f7VZ3PKRUIaZavvxub_Rya5ffAh19sxO&sparams=aitags%2Cclen%2Cdur%2Cei%2Cgir%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Ckeepalive%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpcm2%2Cpl%2Crequiressl%2Csource%2Cexpire&initcwndbps=4092500&ip=2400%3A8902%3A%3Af03c%3A91ff%3Afe39%3A5351&ei=61n9WfGuA53fqQHn_rvIBg&requiressl=yes&pl=64&keepalive=yes&gir=yes&pcm2=yes&expire=1509797451&lmt=1449598539336776&signature=C3BBFF834604B8768569AAA0EA61EFBC1224B9CC.6A77936E79D4CAD8A58306191E3D576BBFA7B816&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&mime=video%2Fwebm&key=yt6&itag=243&clen=9627718&ipbits=0&ratebypass=yes", "vcodec": "vp9", "format_note": "360p", "player_url": null, "width": 640, "ext": "webm", "preference": -40, "fps": 25, "acodec": "none", "format_id": "243", "height": 360, "filesize": 9627718}, {"asr": null, "tbr": 574, "protocol": "https", "format": "134 - 640x360 (DASH video)", "format_note": "DASH video", "height": 360, "preference": -40, "format_id": "134", "language": null, "http_headers": {"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7", "Accept-Language": "en-us,en;q=0.5", "Accept-Encoding": "gzip, deflate", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:10.0) Gecko/20150101 Firefox/47.0 (Chrome)"}, "url": "https://r3---sn-a5mekner.googlevideo.com/videoplayback?id=8e87cd47f5a4a021&itag=134&source=youtube&requiressl=yes&mv=m&ei=61n9WZC8Noiy4QKproOACA&mm=31&mn=sn-a5mekner&pl=64&ms=au&initcwndbps=4092500&ratebypass=yes&mime=video/mp4&gir=yes&clen=9070197&lmt=1480019799403731&dur=224.800&mt=1509775777&signature=273640C42A0890D55CCE566C4F809EA677CFE8FB.976067A8A5EA818B0396C749E5AC850097356B7A&key=dg_yt0&ip=2400:8902::f03c:91ff:fe39:5351&ipbits=0&expire=1509797451&sparams=ip,ipbits,expire,id,itag,source,requiressl,mv,ei,mm,mn,pl,ms,initcwndbps,ratebypass,mime,gir,clen,lmt,dur", "vcodec": "avc1.4d401e", "width": 640, "ext": "mp4", "filesize": 9070197, "fps": 25, "acodec": "none"}, {"http_headers": {"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7", "Accept-Language": "en-us,en;q=0.5", "Accept-Encoding": "gzip, deflate", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:10.0) Gecko/20150101 Firefox/47.0 (Chrome)"}, "tbr": 878.153, "protocol": "https", "format": "244 - 854x480 (480p)", "url": "https://r3---sn-a5mekner.googlevideo.com/videoplayback?dur=224.760&ms=au&mt=1509775777&mv=m&mm=31&source=youtube&mn=sn-a5mekner&id=o-AIrOXF_GN1c-f7VZ3PKRUIaZavvxub_Rya5ffAh19sxO&sparams=aitags%2Cclen%2Cdur%2Cei%2Cgir%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Ckeepalive%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpcm2%2Cpl%2Crequiressl%2Csource%2Cexpire&initcwndbps=4092500&ip=2400%3A8902%3A%3Af03c%3A91ff%3Afe39%3A5351&ei=61n9WfGuA53fqQHn_rvIBg&requiressl=yes&pl=64&keepalive=yes&gir=yes&pcm2=yes&expire=1509797451&lmt=1449598538276012&signature=CEABF39D777DF09FC18EE1654B069CCA474722BA.4480118318EE230785F16805D4CFB435C16D6185&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&mime=video%2Fwebm&key=yt6&itag=244&clen=15913280&ipbits=0&ratebypass=yes", "vcodec": "vp9", "format_note": "480p", "player_url": null, "width": 854, "ext": "webm", "preference": -40, "fps": 25, "acodec": "none", "format_id": "244", "height": 480, "filesize": 15913280}, {"asr": null, "tbr": 1126, "protocol": "https", "format": "135 - 854x480 (DASH video)", "format_note": "DASH video", "height": 480, "preference": -40, "format_id": "135", "language": null, "http_headers": {"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7", "Accept-Language": "en-us,en;q=0.5", "Accept-Encoding": "gzip, deflate", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:10.0) Gecko/20150101 Firefox/47.0 (Chrome)"}, "url": "https://r3---sn-a5mekner.googlevideo.com/videoplayback?id=8e87cd47f5a4a021&itag=135&source=youtube&requiressl=yes&mv=m&ei=61n9WZC8Noiy4QKproOACA&mm=31&mn=sn-a5mekner&pl=64&ms=au&initcwndbps=4092500&ratebypass=yes&mime=video/mp4&gir=yes&clen=17902131&lmt=1480019814639778&dur=224.800&mt=1509775777&signature=719F90B83AC31862D5E93E06148469D83C388E52.5AEC21737C04E08A5347DF5726B016486212A21D&key=dg_yt0&ip=2400:8902::f03c:91ff:fe39:5351&ipbits=0&expire=1509797451&sparams=ip,ipbits,expire,id,itag,source,requiressl,mv,ei,mm,mn,pl,ms,initcwndbps,ratebypass,mime,gir,clen,lmt,dur", "vcodec": "avc1.4d401e", "width": 854, "ext": "mp4", "filesize": 17902131, "fps": 25, "acodec": "none"}, {"http_headers": {"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7", "Accept-Language": "en-us,en;q=0.5", "Accept-Encoding": "gzip, deflate", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:10.0) Gecko/20150101 Firefox/47.0 (Chrome)"}, "tbr": 1667.429, "protocol": "https", "format": "247 - 1280x720 (720p)", "url": "https://r3---sn-a5mekner.googlevideo.com/videoplayback?dur=224.760&ms=au&mt=1509775777&mv=m&mm=31&source=youtube&mn=sn-a5mekner&id=o-AIrOXF_GN1c-f7VZ3PKRUIaZavvxub_Rya5ffAh19sxO&sparams=aitags%2Cclen%2Cdur%2Cei%2Cgir%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Ckeepalive%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpcm2%2Cpl%2Crequiressl%2Csource%2Cexpire&initcwndbps=4092500&ip=2400%3A8902%3A%3Af03c%3A91ff%3Afe39%3A5351&ei=61n9WfGuA53fqQHn_rvIBg&requiressl=yes&pl=64&keepalive=yes&gir=yes&pcm2=yes&expire=1509797451&lmt=1449598538083642&signature=14A0C689324E7ACDA5CA21DF1B9252372E98EE94.A632FC36220B7FA6095821C54BD0A143638178D5&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&mime=video%2Fwebm&key=yt6&itag=247&clen=29102694&ipbits=0&ratebypass=yes", "vcodec": "vp9", "format_note": "720p", "player_url": null, "width": 1280, "ext": "webm", "preference": -40, "fps": 25, "acodec": "none", "format_id": "247", "height": 720, "filesize": 29102694}, {"asr": null, "tbr": 2022, "protocol": "https", "format": "136 - 1280x720 (DASH video)", "format_note": "DASH video", "height": 720, "preference": -40, "format_id": "136", "language": null, "http_headers": {"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7", "Accept-Language": "en-us,en;q=0.5", "Accept-Encoding": "gzip, deflate", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:10.0) Gecko/20150101 Firefox/47.0 (Chrome)"}, "url": "https://r3---sn-a5mekner.googlevideo.com/videoplayback?id=8e87cd47f5a4a021&itag=136&source=youtube&requiressl=yes&mv=m&ei=61n9WZC8Noiy4QKproOACA&mm=31&mn=sn-a5mekner&pl=64&ms=au&initcwndbps=4092500&ratebypass=yes&mime=video/mp4&gir=yes&clen=33018673&lmt=1480019799500021&dur=224.800&mt=1509775777&signature=5FDD418D8EBC10D45521D13763E5E072FACDFF9E.3BC7A1375109DEE639F25198FF91081EAA07EEDE&key=dg_yt0&ip=2400:8902::f03c:91ff:fe39:5351&ipbits=0&expire=1509797451&sparams=ip,ipbits,expire,id,itag,source,requiressl,mv,ei,mm,mn,pl,ms,initcwndbps,ratebypass,mime,gir,clen,lmt,dur", "vcodec": "avc1.4d401f", "width": 1280, "ext": "mp4", "filesize": 33018673, "fps": 25, "acodec": "none"}, {"http_headers": {"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7", "Accept-Language": "en-us,en;q=0.5", "Accept-Encoding": "gzip, deflate", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:10.0) Gecko/20150101 Firefox/47.0 (Chrome)"}, "tbr": 2943.053, "protocol": "https", "format": "248 - 1920x1080 (1080p)", "url": "https://r3---sn-a5mekner.googlevideo.com/videoplayback?dur=224.760&ms=au&mt=1509775777&mv=m&mm=31&source=youtube&mn=sn-a5mekner&id=o-AIrOXF_GN1c-f7VZ3PKRUIaZavvxub_Rya5ffAh19sxO&sparams=aitags%2Cclen%2Cdur%2Cei%2Cgir%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Ckeepalive%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpcm2%2Cpl%2Crequiressl%2Csource%2Cexpire&initcwndbps=4092500&ip=2400%3A8902%3A%3Af03c%3A91ff%3Afe39%3A5351&ei=61n9WfGuA53fqQHn_rvIBg&requiressl=yes&pl=64&keepalive=yes&gir=yes&pcm2=yes&expire=1509797451&lmt=1449598195818264&signature=4BD3AE0D62050DAB5B7E4765B310A7484CA59858.5C83D51A34BC63E7D005BF452FDE5E711546B96D&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&mime=video%2Fwebm&key=yt6&itag=248&clen=51236703&ipbits=0&ratebypass=yes", "vcodec": "vp9", "format_note": "1080p", "player_url": null, "width": 1920, "ext": "webm", "preference": -40, "fps": 25, "acodec": "none", "format_id": "248", "height": 1080, "filesize": 51236703}, {"asr": null, "tbr": 3559, "protocol": "https", "format": "137 - 1920x1080 (DASH video)", "format_note": "DASH video", "height": 1080, "preference": -40, "format_id": "137", "language": null, "http_headers": {"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7", "Accept-Language": "en-us,en;q=0.5", "Accept-Encoding": "gzip, deflate", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:10.0) Gecko/20150101 Firefox/47.0 (Chrome)"}, "url": "https://r3---sn-a5mekner.googlevideo.com/videoplayback?id=8e87cd47f5a4a021&itag=137&source=youtube&requiressl=yes&mv=m&ei=61n9WZC8Noiy4QKproOACA&mm=31&mn=sn-a5mekner&pl=64&ms=au&initcwndbps=4092500&ratebypass=yes&mime=video/mp4&gir=yes&clen=61020034&lmt=1480019585654465&dur=224.800&mt=1509775777&signature=90D1C6BC2724B2A110926B37FB3EA52D6A562D9B.8F758548F0246D03875DE01DA4234D4696D76A01&key=dg_yt0&ip=2400:8902::f03c:91ff:fe39:5351&ipbits=0&expire=1509797451&sparams=ip,ipbits,expire,id,itag,source,requiressl,mv,ei,mm,mn,pl,ms,initcwndbps,ratebypass,mime,gir,clen,lmt,dur", "vcodec": "avc1.640028", "width": 1920, "ext": "mp4", "filesize": 61020034, "fps": 25, "acodec": "none"}, {"http_headers": {"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7", "Accept-Language": "en-us,en;q=0.5", "Accept-Encoding": "gzip, deflate", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:10.0) Gecko/20150101 Firefox/47.0 (Chrome)"}, "protocol": "https", "format": "17 - 176x144 (small)", "url": "https://r3---sn-a5mekner.googlevideo.com/videoplayback?dur=225.140&ms=au&mt=1509775777&mv=m&mm=31&source=youtube&mn=sn-a5mekner&id=o-AIrOXF_GN1c-f7VZ3PKRUIaZavvxub_Rya5ffAh19sxO&sparams=clen%2Cdur%2Cei%2Cgir%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpcm2%2Cpl%2Crequiressl%2Csource%2Cexpire&initcwndbps=4092500&ip=2400%3A8902%3A%3Af03c%3A91ff%3Afe39%3A5351&ei=61n9WfGuA53fqQHn_rvIBg&requiressl=yes&pl=64&gir=yes&pcm2=yes&expire=1509797451&lmt=1394299247603851&signature=BD6487AC8673BCDDB206300A96F92CE458AE385C.BBFCF243276C30AC19F389C852B4C8691BB53CC7&mime=video%2F3gpp&key=yt6&itag=17&clen=2308008&ipbits=0&ratebypass=yes", "vcodec": "mp4v.20.3", "format_note": "small", "ext": "3gp", "player_url": null, "width": 176, "abr": 24, "format_id": "17", "height": 144, "resolution": "176x144", "acodec": " mp4a.40.2"}, {"http_headers": {"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7", "Accept-Language": "en-us,en;q=0.5", "Accept-Encoding": "gzip, deflate", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:10.0) Gecko/20150101 Firefox/47.0 (Chrome)"}, "protocol": "https", "format": "36 - 320x180 (small)", "url": "https://r3---sn-a5mekner.googlevideo.com/videoplayback?dur=225.001&ms=au&mt=1509775777&mv=m&mm=31&source=youtube&mn=sn-a5mekner&id=o-AIrOXF_GN1c-f7VZ3PKRUIaZavvxub_Rya5ffAh19sxO&sparams=clen%2Cdur%2Cei%2Cgir%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpcm2%2Cpl%2Crequiressl%2Csource%2Cexpire&initcwndbps=4092500&ip=2400%3A8902%3A%3Af03c%3A91ff%3Afe39%3A5351&ei=61n9WfGuA53fqQHn_rvIBg&requiressl=yes&pl=64&gir=yes&pcm2=yes&expire=1509797451&lmt=1394299197287725&signature=2B70D289486C04CA5A78E3652968EDA512AB533F.CBE7981B5DDF72D35397028A3C2B10E52A508FD5&mime=video%2F3gpp&key=yt6&itag=36&clen=6368274&ipbits=0&ratebypass=yes", "vcodec": "mp4v.20.3", "format_note": "small", "height": 180, "width": 320, "ext": "3gp", "format_id": "36", "player_url": null, "resolution": "320x180", "acodec": " mp4a.40.2"}, {"http_headers": {"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7", "Accept-Language": "en-us,en;q=0.5", "Accept-Encoding": "gzip, deflate", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:10.0) Gecko/20150101 Firefox/47.0 (Chrome)"}, "protocol": "https", "format": "43 - 640x360 (medium)", "url": "https://r3---sn-a5mekner.googlevideo.com/videoplayback?dur=0.000&ms=au&mt=1509775777&mv=m&mm=31&source=youtube&mn=sn-a5mekner&ratebypass=yes&id=o-AIrOXF_GN1c-f7VZ3PKRUIaZavvxub_Rya5ffAh19sxO&sparams=clen%2Cdur%2Cei%2Cgir%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpcm2%2Cpl%2Cratebypass%2Crequiressl%2Csource%2Cexpire&initcwndbps=4092500&ip=2400%3A8902%3A%3Af03c%3A91ff%3Afe39%3A5351&ei=61n9WfGuA53fqQHn_rvIBg&requiressl=yes&pl=64&gir=yes&pcm2=yes&expire=1509797451&lmt=1383785296655554&signature=21F0C1C9CACFE4857580C930E1276B0CBF5854CE.C85371A90D857EEEF7A100879A1692C49BD0E47C&mime=video%2Fwebm&key=yt6&itag=43&clen=22298824&ipbits=0", "vcodec": "vp8.0", "format_note": "medium", "ext": "webm", "player_url": null, "width": 640, "abr": 128, "format_id": "43", "height": 360, "resolution": "640x360", "acodec": " vorbis"}, {"http_headers": {"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7", "Accept-Language": "en-us,en;q=0.5", "Accept-Encoding": "gzip, deflate", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:10.0) Gecko/20150101 Firefox/47.0 (Chrome)"}, "protocol": "https", "format": "18 - 640x360 (medium)", "url": "https://r3---sn-a5mekner.googlevideo.com/videoplayback?dur=224.908&ms=au&mt=1509775777&mv=m&mm=31&source=youtube&mn=sn-a5mekner&ratebypass=yes&id=o-AIrOXF_GN1c-f7VZ3PKRUIaZavvxub_Rya5ffAh19sxO&sparams=clen%2Cdur%2Cei%2Cgir%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpcm2%2Cpl%2Cratebypass%2Crequiressl%2Csource%2Cexpire&initcwndbps=4092500&ip=2400%3A8902%3A%3Af03c%3A91ff%3Afe39%3A5351&ei=61n9WfGuA53fqQHn_rvIBg&requiressl=yes&pl=64&gir=yes&pcm2=yes&expire=1509797451&lmt=1480019786558105&signature=1B8BBE10F3FA8BE12E8351A9034E80B612E7061E.12E4BAF757420F1EC1227BF0335814541DF3237D&mime=video%2Fmp4&key=yt6&itag=18&clen=15338300&ipbits=0", "vcodec": "avc1.42001E", "format_note": "medium", "ext": "mp4", "player_url": null, "width": 640, "abr": 96, "format_id": "18", "height": 360, "resolution": "640x360", "acodec": " mp4a.40.2"}, {"http_headers": {"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7", "Accept-Language": "en-us,en;q=0.5", "Accept-Encoding": "gzip, deflate", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:10.0) Gecko/20150101 Firefox/47.0 (Chrome)"}, "protocol": "https", "format": "22 - 1280x720 (hd720)", "url": "https://r3---sn-a5mekner.googlevideo.com/videoplayback?dur=224.908&ms=au&mt=1509775777&mv=m&mm=31&source=youtube&mn=sn-a5mekner&ratebypass=yes&id=o-AIrOXF_GN1c-f7VZ3PKRUIaZavvxub_Rya5ffAh19sxO&sparams=dur%2Cei%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpcm2%2Cpl%2Cratebypass%2Crequiressl%2Csource%2Cexpire&initcwndbps=4092500&ip=2400%3A8902%3A%3Af03c%3A91ff%3Afe39%3A5351&ei=61n9WfGuA53fqQHn_rvIBg&requiressl=yes&pl=64&pcm2=yes&expire=1509797451&lmt=1480021653616536&signature=AA153F3E60DDBB09F2601C6AF32D29ED8C10D00A.D56D45306B0509857938C5081673E17E356CF1E7&mime=video%2Fmp4&key=yt6&itag=22&ipbits=0", "vcodec": "avc1.64001F", "format_note": "hd720", "ext": "mp4", "player_url": null, "width": 1280, "abr": 192, "format_id": "22", "height": 720, "resolution": "1280x720", "acodec": " mp4a.40.2"}], "resolution": null, "width": 1920}
+
+
+STDERR:
+
+WARNING: unable to extract uploader nickname
+WARNING: Requested formats are incompatible for merge and will be merged into mkv.
+ERROR: unable to rename file: [Errno 2] No such file or directory
+):
+  
+app/controllers/recommend_song_controller.rb:7:in `create_song'
+Started POST "/create_song?id=jofNR_WkoCE" for 60.34.4.82 at 2017-11-04 06:11:51 +0000
+Cannot render console from 60.34.4.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecommendSongController#create_song as */*
+  Parameters: {"id"=>"jofNR_WkoCE"}
+HTTP Origin header (chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo) didn't match request.base_url (http://139.162.100.116:3000)
+Completed 200 OK in 7977ms (Views: 0.2ms)
+
+
+Started POST "/create_song?id=Y29OrOVJUKs" for 60.34.4.82 at 2017-11-04 06:14:37 +0000
+Cannot render console from 60.34.4.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecommendSongController#create_song as */*
+  Parameters: {"id"=>"Y29OrOVJUKs"}
+HTTP Origin header (chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo) didn't match request.base_url (http://139.162.100.116:3000)
+Completed 200 OK in 9512ms (Views: 0.2ms)
+
+
+Started POST "/create_song?id=j5SrhhrxpcM" for 60.34.4.82 at 2017-11-04 06:17:22 +0000
+Cannot render console from 60.34.4.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecommendSongController#create_song as */*
+  Parameters: {"id"=>"j5SrhhrxpcM"}
+HTTP Origin header (chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo) didn't match request.base_url (http://139.162.100.116:3000)
+Completed 500 Internal Server Error in 2285ms
+
+
+  
+Cocaine::ExitStatusError (Command '/root/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/youtube-dl.rb-0.3.1.2016.09.11.1/vendor/bin/youtube-dl --output '/root/mp3tank_raw/j5SrhhrxpcM' --no-color --no-progress --print-json "https://www.youtube.com/watch?v=j5SrhhrxpcM"' returned 1. Expected 0
+Here is the command output: STDOUT:
+
+
+
+STDERR:
+
+WARNING: unable to extract uploader nickname
+ERROR: Signature extraction failed: Traceback (most recent call last):
+  File "/root/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/youtube-dl.rb-0.3.1.2016.09.11.1/vendor/bin/youtube-dl/youtube_dl/extractor/youtube.py", line 1005, in _decrypt_signature
+    video_id, player_url, s
+  File "/root/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/youtube-dl.rb-0.3.1.2016.09.11.1/vendor/bin/youtube-dl/youtube_dl/extractor/youtube.py", line 897, in _extract_signature_function
+    raise ExtractorError('Cannot identify player %r' % player_url)
+ExtractorError: Cannot identify player u'/yts/jsbin/player-vflg6eF8s/en_US/base.js'; please report this issue on https://yt-dl.org/bug . Make sure you are using the latest version; type  youtube-dl -U  to update. Be sure to call youtube-dl with the --verbose flag and include its complete output.
+ (caused by ExtractorError(u"Cannot identify player u'/yts/jsbin/player-vflg6eF8s/en_US/base.js'; please report this issue on https://yt-dl.org/bug . Make sure you are using the latest version; type  youtube-dl -U  to update. Be sure to call youtube-dl with the --verbose flag and include its complete output.",)); please report this issue on https://yt-dl.org/bug . Make sure you are using the latest version; type  youtube-dl -U  to update. Be sure to call youtube-dl with the --verbose flag and include its complete output.
+):
+  
+app/controllers/recommend_song_controller.rb:7:in `create_song'
+Started POST "/create_song?id=kCQ8zNXESMQ" for 60.34.4.82 at 2017-11-04 06:17:51 +0000
+Cannot render console from 60.34.4.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecommendSongController#create_song as */*
+  Parameters: {"id"=>"kCQ8zNXESMQ"}
+HTTP Origin header (chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo) didn't match request.base_url (http://139.162.100.116:3000)
+Completed 200 OK in 5881ms (Views: 0.2ms)
+
+
+Started POST "/create_song?id=kCQ8zNXESMQ" for 60.34.4.82 at 2017-11-04 06:38:05 +0000
+Cannot render console from 60.34.4.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecommendSongController#create_song as */*
+  Parameters: {"id"=>"kCQ8zNXESMQ"}
+HTTP Origin header (chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo) didn't match request.base_url (http://139.162.100.116:3000)
+Completed 200 OK in 5855ms (Views: 0.2ms)
+
+
+Started POST "/create_song?id=kCQ8zNXESMQ" for 60.34.4.82 at 2017-11-04 06:39:00 +0000
+Cannot render console from 60.34.4.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecommendSongController#create_song as */*
+  Parameters: {"id"=>"kCQ8zNXESMQ"}
+HTTP Origin header (chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo) didn't match request.base_url (http://139.162.100.116:3000)
+Completed 200 OK in 5189ms (Views: 0.2ms)
+
+
+Started POST "/create_song?id=jQMW_BVmkyc" for 60.34.4.82 at 2017-11-04 06:39:52 +0000
+Cannot render console from 60.34.4.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecommendSongController#create_song as */*
+  Parameters: {"id"=>"jQMW_BVmkyc"}
+HTTP Origin header (chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo) didn't match request.base_url (http://139.162.100.116:3000)
+Completed 200 OK in 60285ms (Views: 0.3ms)
+
+
+Started POST "/create_song?id=jQMW_BVmkyc" for 60.34.4.82 at 2017-11-04 06:45:44 +0000
+Cannot render console from 60.34.4.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecommendSongController#create_song as */*
+  Parameters: {"id"=>"jQMW_BVmkyc"}
+HTTP Origin header (chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo) didn't match request.base_url (http://139.162.100.116:3000)
+Completed 200 OK in 57345ms (Views: 0.4ms)
+
+
+Started POST "/create_song?id=2ugFGKYfc9w" for 60.34.4.82 at 2017-11-04 06:54:28 +0000
+Cannot render console from 60.34.4.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecommendSongController#create_song as */*
+  Parameters: {"id"=>"2ugFGKYfc9w"}
+HTTP Origin header (chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo) didn't match request.base_url (http://139.162.100.116:3000)
+Completed 200 OK in 17699ms (Views: 0.3ms)
+
+
+Started POST "/create_song?id=2ugFGKYfc9w" for 60.34.4.82 at 2017-11-04 06:56:03 +0000
+Cannot render console from 60.34.4.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecommendSongController#create_song as */*
+  Parameters: {"id"=>"2ugFGKYfc9w"}
+HTTP Origin header (chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo) didn't match request.base_url (http://139.162.100.116:3000)
+Completed 200 OK in 16056ms (Views: 0.4ms)
+
+
+Started POST "/create_song?id=2ugFGKYfc9w" for 60.34.4.82 at 2017-11-04 06:57:18 +0000
+Cannot render console from 60.34.4.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecommendSongController#create_song as */*
+  Parameters: {"id"=>"2ugFGKYfc9w"}
+HTTP Origin header (chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo) didn't match request.base_url (http://139.162.100.116:3000)
+Completed 200 OK in 16614ms (Views: 0.2ms)
+
+
+Started POST "/create_song?id=2ugFGKYfc9w" for 60.34.4.82 at 2017-11-04 07:00:05 +0000
+Cannot render console from 60.34.4.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecommendSongController#create_song as */*
+  Parameters: {"id"=>"2ugFGKYfc9w"}
+HTTP Origin header (chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo) didn't match request.base_url (http://139.162.100.116:3000)
+Completed 200 OK in 16287ms (Views: 0.2ms)
+
+
+Started POST "/create_song?id=LYI4CLEQWNw" for 60.34.4.82 at 2017-11-04 07:01:29 +0000
+Cannot render console from 60.34.4.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecommendSongController#create_song as */*
+  Parameters: {"id"=>"LYI4CLEQWNw"}
+HTTP Origin header (chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo) didn't match request.base_url (http://139.162.100.116:3000)
+Completed 200 OK in 8554ms (Views: 0.3ms)
+
+
+Started POST "/create_song?id=RPAIWjtPCc4" for 60.34.4.82 at 2017-11-04 07:02:22 +0000
+Cannot render console from 60.34.4.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecommendSongController#create_song as */*
+  Parameters: {"id"=>"RPAIWjtPCc4"}
+HTTP Origin header (chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo) didn't match request.base_url (http://139.162.100.116:3000)
+Completed 500 Internal Server Error in 2393ms
+
+
+  
+Cocaine::ExitStatusError (Command '/root/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/youtube-dl.rb-0.3.1.2016.09.11.1/vendor/bin/youtube-dl --output '/root/mp3tank_raw_tmp/RPAIWjtPCc4' --no-color --no-progress --print-json "https://www.youtube.com/watch?v=RPAIWjtPCc4"' returned 1. Expected 0
+Here is the command output: STDOUT:
+
+
+
+STDERR:
+
+ERROR: Signature extraction failed: Traceback (most recent call last):
+  File "/root/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/youtube-dl.rb-0.3.1.2016.09.11.1/vendor/bin/youtube-dl/youtube_dl/extractor/youtube.py", line 1005, in _decrypt_signature
+    video_id, player_url, s
+  File "/root/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/youtube-dl.rb-0.3.1.2016.09.11.1/vendor/bin/youtube-dl/youtube_dl/extractor/youtube.py", line 897, in _extract_signature_function
+    raise ExtractorError('Cannot identify player %r' % player_url)
+ExtractorError: Cannot identify player u'/yts/jsbin/player-vflg6eF8s/en_US/base.js'; please report this issue on https://yt-dl.org/bug . Make sure you are using the latest version; type  youtube-dl -U  to update. Be sure to call youtube-dl with the --verbose flag and include its complete output.
+ (caused by ExtractorError(u"Cannot identify player u'/yts/jsbin/player-vflg6eF8s/en_US/base.js'; please report this issue on https://yt-dl.org/bug . Make sure you are using the latest version; type  youtube-dl -U  to update. Be sure to call youtube-dl with the --verbose flag and include its complete output.",)); please report this issue on https://yt-dl.org/bug . Make sure you are using the latest version; type  youtube-dl -U  to update. Be sure to call youtube-dl with the --verbose flag and include its complete output.
+):
+  
+app/controllers/recommend_song_controller.rb:10:in `create_song'
+Started POST "/create_song?id=ptLFrU_zrEQ" for 60.34.4.82 at 2017-11-04 07:02:42 +0000
+Cannot render console from 60.34.4.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecommendSongController#create_song as */*
+  Parameters: {"id"=>"ptLFrU_zrEQ"}
+HTTP Origin header (chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo) didn't match request.base_url (http://139.162.100.116:3000)
+Completed 200 OK in 11704ms (Views: 0.2ms)
+
+
+Started POST "/create_song?id=8AJqin2ZHZM" for 60.34.4.82 at 2017-11-04 07:03:19 +0000
+Cannot render console from 60.34.4.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecommendSongController#create_song as */*
+  Parameters: {"id"=>"8AJqin2ZHZM"}
+HTTP Origin header (chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo) didn't match request.base_url (http://139.162.100.116:3000)
+Completed 500 Internal Server Error in 2054ms
+
+
+  
+Cocaine::ExitStatusError (Command '/root/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/youtube-dl.rb-0.3.1.2016.09.11.1/vendor/bin/youtube-dl --output '/root/mp3tank_raw_tmp/8AJqin2ZHZM' --no-color --no-progress --print-json "https://www.youtube.com/watch?v=8AJqin2ZHZM"' returned 1. Expected 0
+Here is the command output: STDOUT:
+
+
+
+STDERR:
+
+ERROR: Signature extraction failed: Traceback (most recent call last):
+  File "/root/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/youtube-dl.rb-0.3.1.2016.09.11.1/vendor/bin/youtube-dl/youtube_dl/extractor/youtube.py", line 1005, in _decrypt_signature
+    video_id, player_url, s
+  File "/root/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/youtube-dl.rb-0.3.1.2016.09.11.1/vendor/bin/youtube-dl/youtube_dl/extractor/youtube.py", line 897, in _extract_signature_function
+    raise ExtractorError('Cannot identify player %r' % player_url)
+ExtractorError: Cannot identify player u'/yts/jsbin/player-vflg6eF8s/en_US/base.js'; please report this issue on https://yt-dl.org/bug . Make sure you are using the latest version; type  youtube-dl -U  to update. Be sure to call youtube-dl with the --verbose flag and include its complete output.
+ (caused by ExtractorError(u"Cannot identify player u'/yts/jsbin/player-vflg6eF8s/en_US/base.js'; please report this issue on https://yt-dl.org/bug . Make sure you are using the latest version; type  youtube-dl -U  to update. Be sure to call youtube-dl with the --verbose flag and include its complete output.",)); please report this issue on https://yt-dl.org/bug . Make sure you are using the latest version; type  youtube-dl -U  to update. Be sure to call youtube-dl with the --verbose flag and include its complete output.
+):
+  
+app/controllers/recommend_song_controller.rb:10:in `create_song'
+Started POST "/create_song?id=aANjd9f3BV4" for 60.34.4.82 at 2017-11-04 07:03:34 +0000
+Cannot render console from 60.34.4.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecommendSongController#create_song as */*
+  Parameters: {"id"=>"aANjd9f3BV4"}
+HTTP Origin header (chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo) didn't match request.base_url (http://139.162.100.116:3000)
+Completed 200 OK in 9968ms (Views: 0.2ms)
+
+
+Started POST "/create_song?id=aANjd9f3BV4" for 60.34.4.82 at 2017-11-04 08:14:47 +0000
+Cannot render console from 60.34.4.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecommendSongController#create_song as */*
+  Parameters: {"id"=>"aANjd9f3BV4"}
+HTTP Origin header (chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo) didn't match request.base_url (http://139.162.100.116:3000)
+Completed 200 OK in 8924ms (Views: 0.3ms)
+
+
+Started POST "/create_song?id=8AJqin2ZHZM" for 60.34.4.82 at 2017-11-04 08:15:01 +0000
+Cannot render console from 60.34.4.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecommendSongController#create_song as */*
+  Parameters: {"id"=>"8AJqin2ZHZM"}
+HTTP Origin header (chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo) didn't match request.base_url (http://139.162.100.116:3000)
+Completed 500 Internal Server Error in 2574ms
+
+
+  
+Cocaine::ExitStatusError (Command '/root/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/youtube-dl.rb-0.3.1.2016.09.11.1/vendor/bin/youtube-dl --output '/root/mp3tank_raw_tmp/8AJqin2ZHZM' --no-color --no-progress --print-json "https://www.youtube.com/watch?v=8AJqin2ZHZM"' returned 1. Expected 0
+Here is the command output: STDOUT:
+
+
+
+STDERR:
+
+WARNING: unable to extract uploader nickname
+ERROR: Signature extraction failed: Traceback (most recent call last):
+  File "/root/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/youtube-dl.rb-0.3.1.2016.09.11.1/vendor/bin/youtube-dl/youtube_dl/extractor/youtube.py", line 1005, in _decrypt_signature
+    video_id, player_url, s
+  File "/root/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/youtube-dl.rb-0.3.1.2016.09.11.1/vendor/bin/youtube-dl/youtube_dl/extractor/youtube.py", line 897, in _extract_signature_function
+    raise ExtractorError('Cannot identify player %r' % player_url)
+ExtractorError: Cannot identify player u'/yts/jsbin/player-vflg6eF8s/en_US/base.js'; please report this issue on https://yt-dl.org/bug . Make sure you are using the latest version; type  youtube-dl -U  to update. Be sure to call youtube-dl with the --verbose flag and include its complete output.
+ (caused by ExtractorError(u"Cannot identify player u'/yts/jsbin/player-vflg6eF8s/en_US/base.js'; please report this issue on https://yt-dl.org/bug . Make sure you are using the latest version; type  youtube-dl -U  to update. Be sure to call youtube-dl with the --verbose flag and include its complete output.",)); please report this issue on https://yt-dl.org/bug . Make sure you are using the latest version; type  youtube-dl -U  to update. Be sure to call youtube-dl with the --verbose flag and include its complete output.
+):
+  
+app/controllers/recommend_song_controller.rb:10:in `create_song'
+Started POST "/create_song?id=ptLFrU_zrEQ" for 60.34.4.82 at 2017-11-04 08:15:06 +0000
+Cannot render console from 60.34.4.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecommendSongController#create_song as */*
+  Parameters: {"id"=>"ptLFrU_zrEQ"}
+HTTP Origin header (chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo) didn't match request.base_url (http://139.162.100.116:3000)
+Completed 200 OK in 13652ms (Views: 0.3ms)
+
+
+Started GET "/" for 60.34.4.82 at 2017-11-04 13:04:54 +0000
+Cannot render console from 60.34.4.82! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /root/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /root/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (3.4ms)
+Completed 200 OK in 282ms (Views: 8.9ms)
+
+
