@@ -3,7 +3,7 @@ require 'fileutils'
 class RecommendSongController < ApplicationController
   protect_from_forgery with: :null_session
   IS_DEBUGGING = true
-  if
+  if IS_DEBUGGING
     OUTPUT_TMP_PATH = 'mp3tank_raw_tmp/'.freeze
     OUTPUT_PATH = 'mp3tank_raw/'.freeze
   else
