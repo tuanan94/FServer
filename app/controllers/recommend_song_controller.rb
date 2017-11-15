@@ -2,8 +2,15 @@ require 'fileutils'
 
 class RecommendSongController < ApplicationController
   protect_from_forgery with: :null_session
-  OUTPUT_TMP_PATH = "/root/mp3tank_raw_tmp/"
-  OUTPUT_PATH = "/root/mp3tank_raw/"
+  IS_DEBUGGING = true
+  if
+    OUTPUT_TMP_PATH = "mp3tank_raw_tmp/"
+    OUTPUT_PATH = "mp3tank_raw/"
+  else
+    OUTPUT_TMP_PATH = "/root/mp3tank_raw_tmp/"
+    OUTPUT_PATH = "/root/mp3tank_raw/"
+  end
+
   def create_song
     youtube_id = params["id"]
     return render :json => "{error: id empty}", :status => 400 unless youtube_id
