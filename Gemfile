@@ -32,6 +32,7 @@ gem 'rubocop'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem 'grape'
+gem 'rails_admin', '~> 1.2'
 
 gem 'youtube-dl.rb', git: 'https://github.com/CSilivestru/youtube-dl.rb.git'
 group :development, :test do

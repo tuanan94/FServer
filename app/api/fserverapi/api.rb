@@ -4,8 +4,8 @@ module Fserverapi
   class API < Grape::API
     IS_DEBUGGING = true
     if IS_DEBUGGING
-      OUTPUT_TMP_PATH = 'mp3tank_raw_tmp/'.freeze
-      OUTPUT_PATH = 'mp3tank_raw/'.freeze
+      OUTPUT_TMP_PATH = 'tmp/mp3tank_raw_tmp/'.freeze
+      OUTPUT_PATH = 'tmp/mp3tank_raw/'.freeze
     else
       OUTPUT_TMP_PATH = '/root/mp3tank_raw_tmp/'.freeze
       OUTPUT_PATH = '/root/mp3tank_raw/'.freeze
@@ -25,11 +25,13 @@ module Fserverapi
       end
       YoutubeDL.download "https://www.youtube.com/watch?v=#{youtube_id}", output: OUTPUT_TMP_PATH + youtube_id.to_s
       files = Dir[OUTPUT_TMP_PATH + "#{youtube_id}*"]
-      return render json: '{error: many outputs}', status: 400 if files.size != 1
+      if files.size != 1
+        status 400
+        present APIError.new('Many outputs')
+        return
+      end
       target_file = files[0]
       FileUtils.mv target_file, OUTPUT_PATH + target_file.split('/').last
-
-      render json: '{}'
       status 200
       {}
     end

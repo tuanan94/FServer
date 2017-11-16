@@ -42,6 +42,5 @@ bower.json
 
 # Ignore Byebug command history file.
 .byebug_history
-*.mkv
-
-*.mp3
+config/secrets.yml
+.idea/*
