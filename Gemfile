@@ -34,6 +34,7 @@ gem 'rubocop'
 gem 'grape'
 gem 'rails_admin', '~> 1.2'
 gem 'firebase'
+gem 'http'
 gem 'youtube-dl.rb', git: 'https://github.com/CSilivestru/youtube-dl.rb.git'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
