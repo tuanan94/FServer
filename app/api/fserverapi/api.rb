@@ -11,6 +11,12 @@ module Fserverapi
       OUTPUT_PATH = '/root/mp3tank_raw/'.freeze
     end
 
+    before do
+      token = params['token']
+      @account = Account.find_by(uuid: token)
+    end
+
+
     version 'v1', using: :header, vendor: 'twitter'
     format :json
     prefix :api
@@ -38,14 +44,33 @@ module Fserverapi
 
     post :create_account do
       name = params['name']
-      uuid = SecureRandom.base64(128)
+      uuid = SecureRandom.base64(128).to_s.remove('+')
       account = Account.create(uuid: uuid,name: name)
       unless account
           status 400
           present APIError.new('Many outputs')
       end
       status 200
+      {token: account.uuid}
+    end
+
+    post :set_song_id do
+      token = params['token']
+      unless token == Constant::LIBSHOUT_TOKEN
+        status 400
+        present APIError.new('Who are you??')
+      end
+      id = params["id"]
+      base_uri = 'https://fradio-firebase.firebaseio.com/'
+      firebase = Firebase::Client.new(base_uri, Constant::FIREBASE_SECRET_KEY)
+      response = firebase.set("/current",{:id => id})
+      status 200
       {}
+    end
+
+    private
+    def authentication
+      debugger
     end
   end
 end

@@ -19,7 +19,6 @@ class RecommendSongController < ApplicationController
     return render json: '{error: many outputs}', status: 400 if files.size != 1
     target_file = files[0]
     FileUtils.mv target_file, OUTPUT_PATH + target_file.split('/').last
-
     render json: '{}'
   end
 end
