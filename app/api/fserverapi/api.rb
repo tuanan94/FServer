@@ -35,5 +35,17 @@ module Fserverapi
       status 200
       {}
     end
+
+    post :create_account do
+      name = params['name']
+      uuid = SecureRandom.base64(128)
+      account = Account.create(uuid: uuid,name: name)
+      unless account
+          status 400
+          present APIError.new('Many outputs')
+      end
+      status 200
+      {}
+    end
   end
 end
