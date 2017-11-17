@@ -64,6 +64,7 @@ module Fserverapi
       base_uri = 'https://fradio-firebase.firebaseio.com/'
       firebase = Firebase::Client.new(base_uri, Constant::FIREBASE_SECRET_KEY)
       # Call to youtube api
+      youtube_response = HTTP.get("https://www.googleapis.com/youtube/v3/videos?part=id%2C+snippet&id=#{id}&key=AIzaSyDZaBwBbLqgsNwGaFihdkuiyM3OHpVI64g").to_s
       begin
         title = JSON.parse(youtube_response)["items"][0]["snippet"]["title"]
       rescue => e
@@ -72,11 +73,6 @@ module Fserverapi
       response = firebase.set("/current",{:id => id, :title => title})
       status 200
       {}
-    end
-
-    private
-    def authentication
-      debugger
     end
   end
 end
