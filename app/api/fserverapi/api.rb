@@ -74,5 +74,16 @@ module Fserverapi
       status 200
       {}
     end
+
+    post :i_am_watching do
+      if @account == nil
+        status 400
+        present APIError.new('Who are you??')
+        return
+      end
+      Watching.find_or_create_by(uuid: @account.uuid)
+      status 200
+      {}
+    end
   end
 end

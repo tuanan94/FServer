@@ -10,11 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171116120137) do
+ActiveRecord::Schema.define(version: 20171119090407) do
 
   create_table "accounts", force: :cascade do |t|
     t.string "uuid"
     t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "watchings", force: :cascade do |t|
+    t.string "uuid"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

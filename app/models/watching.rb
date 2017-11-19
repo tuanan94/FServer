@@ -1,0 +1,2 @@
+class Watching < ApplicationRecord
+end
